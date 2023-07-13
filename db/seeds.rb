@@ -14,3 +14,9 @@ product.save
 
 product = Product.new(name: "Nike Waffle Debut", price: 75, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2e5f7094-b487-4c82-bfde-36bb881be861/waffle-debut-womens-shoes-5Rl1KL.png", description: "Retro gets modernized with these sleek sneaks inspired by the Nike Daybreak. Era-echoing suede and nylon are paired in complementary colors, and the updated wedge midsole gives you an extra lift. Style, comfort, iconic Waffle outsole—this is a perfect new addition to your daily rotation.")
 product.save
+
+supplier = Suppiler.new(name: "Nike", email: "contactus@nike.com", phone_number: "0000000000")
+supplier.save
+
+supplier = Suppiler.new(name: "Creepy_fans", email: "contactus@creepyfans.com", phone_number: "1111111111")
+supplier.save
