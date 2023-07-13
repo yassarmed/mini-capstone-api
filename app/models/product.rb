@@ -3,6 +3,8 @@ class Product < ApplicationRecord
   validates :description, presence: true
   validates :image_url, presence: true
   validates :name, presence: true
+  validates :qauntity, numericality: true
+  validates :qauntity, numericality: { only_integer: true }
 
   def is_discounted?
     price <= 10
