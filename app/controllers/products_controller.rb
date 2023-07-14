@@ -13,7 +13,7 @@ class ProductsController < ApplicationController
     @product = Product.new(
       name: params["name"],
       price: params["price"],
-      image_url: params["image_url"],
+      # image_url: params["image_url"],
       description: params["description"],
       qauntity: params["qauntity"],
 
@@ -30,7 +30,7 @@ class ProductsController < ApplicationController
     @product.update(
       name: params["name"] || @product.name,
       price: params["price"] || @product.price,
-      image_url: params["image_url"] || @product.image_url,
+      # image_url: params["image_url"] || @product.image_url,
       description: params["description"] || @product.description,
       qauntity: params["qauntity"] || @product.qauntity,
     )
