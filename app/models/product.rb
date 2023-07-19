@@ -8,6 +8,7 @@ class Product < ApplicationRecord
 
   has_many :images
   belongs_to :suppiler
+  belongs_to :order
 
   # def suppiler
   #   Suppiler.find_by(id: supplier_id)
