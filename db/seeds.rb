@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-image = Image.new(url: "https://i5.walmartimages.com/asr/1c2515bd-9510-4040-b674-10ac0a6fe263.e45a6d6126c47317ecfdadfacfc6f669.jpeg", product_id: 6)
-image.save
+# image = Image.new(url: "https://i5.walmartimages.com/asr/1c2515bd-9510-4040-b674-10ac0a6fe263.e45a6d6126c47317ecfdadfacfc6f669.jpeg", product_id: 6)
+# image.save
 
-image = Image.new(url: "https://images.footballfanatics.com/phoenix-suns/mens-nike-kevin-durant-purple-phoenix-suns-swingman-jersey-icon-edition_pi5357000_altimages_ff_5357731-09f07d17db9505040e33alt1_full.jpg?_hv=2&w=900", product_id: 7)
-image.save
+# image = Image.new(url: "https://images.footballfanatics.com/phoenix-suns/mens-nike-kevin-durant-purple-phoenix-suns-swingman-jersey-icon-edition_pi5357000_altimages_ff_5357731-09f07d17db9505040e33alt1_full.jpg?_hv=2&w=900", product_id: 7)
+# image.save
 
 # product = Product.new(name: "Nike Dunk Low Retro", price: 110, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9c9308fc-1651-40b2-9f2e-d85697d05027/dunk-low-retro-mens-shoes-9k2Xt6.png", description: "Recognizing the Dunk's roots as the top-ranking college team sneaker, the Be True To Your School pack looks to the original ad campaign for inspiration. Colors represent top-flight universities, while crisp leather has the perfect amount of sheen to make 'em a hands-down win. So lace up and show off that varsity spirit. Ya game?")
 # product.save
