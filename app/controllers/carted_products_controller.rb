@@ -1,4 +1,6 @@
 class CartedProductsController < ApplicationController
+  before_action :authenticate_user
+
   def create
     product = Product.find_by(id: params[:product_id])
     @carted_product = CartedProduct.new(
@@ -14,5 +16,10 @@ class CartedProductsController < ApplicationController
     else
       render json: { errors: @carted_product.errors.full_messages }, status: :bad_request
     end
+  end
+
+  def index
+    @carted_products = CartedProduct.all
+    render template: "carted_products/index"
   end
 end
