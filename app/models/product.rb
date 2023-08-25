@@ -1,5 +1,5 @@
 class Product < ApplicationRecord
-  belongs_to :suppiler
+  belongs_to :supplier
   has_many :orders
   has_many :category_products
   has_many :categories, through: :category_products
